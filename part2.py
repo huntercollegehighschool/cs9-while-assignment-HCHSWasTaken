@@ -11,3 +11,9 @@ Hunter
 Hunter
 
 '''
+def code():
+  times = int(input("How many times do you want to print hunter?: "))
+  i = 0
+  while i < times:
+    print("Hunter")
+    i += 1

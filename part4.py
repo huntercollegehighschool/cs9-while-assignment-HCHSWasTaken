@@ -12,3 +12,11 @@ Enter a number or enter 0 to stop: 0
 Product: 60
 
 '''
+def code():
+  num = int(input("Enter a number or enter 0 to stop:"))
+  multi = 1
+  while num != 0:
+    multi = multi * num
+    num = int(input("Enter a number or enter 0 to stop:"))
+
+  print("The product of the numbers you entered is:", multi)
